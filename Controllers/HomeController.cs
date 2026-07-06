@@ -54,7 +54,7 @@ namespace EJ2MVCSampleBrowser.Controllers
             tbitems.Add(new ToolbarItem { Template = moreToolBarTemplate, TooltipText = "More actions", CssClass = "tb-item-more tb-item-back", Align =  ItemAlign.Right  });
             ViewBag.tbmItems = tbitems;
 
-            return PartialView("home");
+            return PartialView("Home");
         }
 
         public ActionResult Newmail()
